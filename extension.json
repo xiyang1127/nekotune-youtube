@@ -1,0 +1,12 @@
+{
+  "id": "nekotune.youtube",
+  "name": "YouTube 漫游",
+  "version": "0.1.1",
+  "apiVersion": 3,
+  "description": "搜索歌曲与作者、浏览频道视频和 Shorts、内嵌观看、播放及下载歌曲入库。",
+  "config": { "ytDlpPath": "yt-dlp", "proxy": "", "cookiesFile": "" },
+  "contributes": {
+    "pages": [{ "id": "browse", "title": { "zh": "YouTube 漫游", "en": "YouTube" }, "source": "qml/Page.qml" }],
+    "settings": [{ "id": "settings", "title": { "zh": "YouTube 设置", "en": "YouTube settings" }, "source": "qml/SettingsPage.qml" }]
+  }
+}
